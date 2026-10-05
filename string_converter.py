@@ -34,9 +34,9 @@ def decoding(s):
             coded = coded + " "+ word
     return coded
 try:
-    task = int(input("Enter 1 for coding and 2 for decoding : "))
+    task = int(input("Enter 1 to encode and 2 to decode : "))
     if(task == 1):
-        message = input("Enter the message that you want to code.\n>>>>")
+        message = input("Enter the message that you want to encode.\n>>>>")
         print(coding(message))
     elif(task == 2):
         message = input("Enter the message that you want to decode.\n>>>>")
